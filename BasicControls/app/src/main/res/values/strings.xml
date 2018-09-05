@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BasicControls</string>
+    <string name="fruit1">Ananas</string>
+    <string name="fruit2">Apples</string>
+    <string name="fruit3">Oranges</string>
+    <string name="fruit4">Bananas</string>
+    <string name="fruit5">Kiwi</string>
+</resources>
