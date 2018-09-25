@@ -1,4 +1,4 @@
-package com.example.k8684.notifications;
+package com.example.meincrab.notifications;
 
 import org.junit.Test;
 
