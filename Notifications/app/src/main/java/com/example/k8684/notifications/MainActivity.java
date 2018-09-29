@@ -1,9 +1,14 @@
 package com.example.k8684.notifications;
 
+import android.annotation.SuppressLint;
+import android.app.AlertDialog;
+import android.app.Dialog;
 import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
+import android.content.DialogInterface;
 import android.os.Build;
+import android.support.v4.app.DialogFragment;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationManagerCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -45,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         notificationManager.notify(1, notification);
     }
 
-    public void showNotification2(View view){
+    public void showNotification2(View view) {
         String title = editTextTitle.getText().toString();
         String message = editTextMessage.getText().toString();
 
@@ -59,4 +64,9 @@ public class MainActivity extends AppCompatActivity {
 
         notificationManager.notify(2, notification);
     }
-}
+
+    public void showAlertBox(View view){
+        ShowAlertBox showalertbox = new ShowAlertBox();
+        showalertbox.show(getSupportFragmentManager(), "some text");
+    }
+    }
