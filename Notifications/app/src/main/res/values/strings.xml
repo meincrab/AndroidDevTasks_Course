@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Notifications</string>
-    <string name="deleteChannel2">Are you sure you want to delete channel 2?</string>
-    <string name="positiive">Positiive!</string>
-    <string name="negative">Negative!</string>
+    <string name="deleteChannel2">You want to exit application?</string>
+    <string name="positiive">Exit!</string>
+    <string name="negative">Stay!</string>
 
 </resources>

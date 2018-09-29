@@ -68,5 +68,7 @@ public class MainActivity extends AppCompatActivity {
     public void showAlertBox(View view){
         ShowAlertBox showalertbox = new ShowAlertBox();
         showalertbox.show(getSupportFragmentManager(), "some text");
+        /*View buttonToHide = findViewById(R.id.button2);
+        buttonToHide.setVisibility(View.GONE);*/
     }
     }
