@@ -1,4 +1,4 @@
-package com.example.k8684.imagelibaries;
+package com.example.k8684.musicplayer;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.k8684.imagelibaries", appContext.getPackageName());
+        assertEquals("com.example.k8684.musicplayer", appContext.getPackageName());
     }
 }

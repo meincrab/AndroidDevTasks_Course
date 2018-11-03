@@ -1,4 +1,4 @@
-package com.example.k8684.imagelibaries;
+package com.example.k8684.musicplayer;
 
 import org.junit.Test;
 
